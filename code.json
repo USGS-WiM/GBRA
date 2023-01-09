@@ -19,7 +19,7 @@
     "homepageURL": "https://wim.usgs.gov",
     "downloadURL": "https://github.com/USGS-WiM/ORA/archive/master.zip",
     "disclaimerURL": "https://github.com/USGS-WiM/ORA/blob/master/DISCLAIMER.md",
-    "repositoryUrl": "https://github.com/USGS-WiM/ORA",
+    "repositoryUrl": "https://github.com/USGS-WiM/GBRA",
     "vcs": "git",
 
     "laborHours": null,

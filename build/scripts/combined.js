@@ -351,7 +351,7 @@ var gbra = gbra || {
             //{"id":"ottawa-nwr", "name":"Ottawa NWR", "userCreated": false, spatialReference:{"wkid":102100}, "xmax":-9253627.864758775,"xmin":-9268896.161158718,"ymax":5109457.058192252,"ymin":5099759.110228584}
         ],
         globals: {
-            mapCenter: [-77.0753, 43.5469]
+            mapCenter: [-86.0753, 45.5469]
         }
     };
 
