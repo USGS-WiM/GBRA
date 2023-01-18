@@ -4,7 +4,7 @@
   "description": "green bay restoration assessment web application",
   "repository": {
     "type": "git",
-    "url": "https://github.com/USGS-WiM/ORA"
+    "url": "https://github.com/USGS-WiM/GBRA"
   },
   "devDependencies": {
     "del": "^1.1.1",
