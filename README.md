@@ -13,8 +13,10 @@ The Green Bay Restoration Assessment (GBRA) model was developed by the Upper Mid
 use node version 11.15.0
 
 run `npm install` AND `bower install` to get dependencies after first cloning
+- choose option 1 after running bower install
 
 `gulp watch` to run in browser with watch for debugging
+**NOTE**: Must change the basemap to from 'gray' to 'osm' in the core.js file to be able to view basemap locally. Change back when publishing.
 
 `gulp build` to build project
 
