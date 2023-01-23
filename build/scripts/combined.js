@@ -351,7 +351,7 @@ var gbra = gbra || {
             //{"id":"ottawa-nwr", "name":"Ottawa NWR", "userCreated": false, spatialReference:{"wkid":102100}, "xmax":-9253627.864758775,"xmin":-9268896.161158718,"ymax":5109457.058192252,"ymin":5099759.110228584}
         ],
         globals: {
-            mapCenter: [-86.0753, 45.5469]
+            mapCenter: [-87.1126, 45.2567]
         }
     };
 
@@ -446,7 +446,7 @@ require([
     domClass.add(popup.domNode);
 
     map = new Map('mapDiv', {
-        basemap: 'osm', //gray
+        basemap: 'gray', //osm
         center: gbra.globals.mapCenter,
         spatialReference: 26917,
         zoom: 8,
@@ -1350,7 +1350,7 @@ require([
         legendLayers.push({layer:studyAreaLayer , title:" "});
         studyAreaLayer.inLegendLayers = true; 
 
-        const waterMaskLayer =  new ArcGISDynamicMapServiceLayer(mapServiceRoot + "GBRA/MapServer", {id: "waterMask", visible:true, opacity: 0.75} );
+        const waterMaskLayer =  new ArcGISDynamicMapServiceLayer(mapServiceRoot + "GBRA/MapServer", {id: "waterMask", visible:false, opacity: 0.75} );
         waterMaskLayer.setVisibleLayers([5]);
         mapLayers.push(waterMaskLayer);
         mapLayerIds.push(waterMaskLayer.id);
